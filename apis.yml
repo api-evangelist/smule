@@ -1,8 +1,24 @@
 aid: smule
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/smule.png
 name: Smule
-description: 'Smule is a company surfaced as a portfolio company of bessemer-venture-partners, shasta-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Smule is an American consumer music technology company whose flagship social
+  singing and karaoke app lets people perform solos, duets, and group songs and collaborate
+  with other singers around the world in real time. Launched on iOS in 2012 and on Android
+  in 2013 under the name "Sing! Karaoke," the app grew to tens of millions of monthly active
+  users. Smule Inc. is headquartered in San Francisco and is backed by Bessemer Venture
+  Partners and Shasta Ventures. Smule publishes no official public developer API; this
+  profile tracks the company for the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/smule/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Music
+- Karaoke
+- Singing
+- Mobile
+- Social
+- Entertainment
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +46,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/smule-domain-security.yml
 - type: Website
   url: https://www.smule.com/
+- type: Blog
+  url: https://blog.smule.com/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
